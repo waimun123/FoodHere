@@ -1,7 +1,8 @@
-package com.example.foodhere
+package com.example.foodhere.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.foodhere.R
 
 class RegisterActivity : AppCompatActivity() {
 
