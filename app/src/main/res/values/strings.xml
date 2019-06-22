@@ -20,8 +20,6 @@
 
     //register screen
     <string name="title_register" translatable="false">Registration</string>
-    <string name="username_register" translatable="false">Username:</string>
-    <string name="password_register" translatable="false">Password:</string>
-    <string name="confirmpass_register" translatable="false">Confirm Password:</string>
-    <string name="register_btn" translatable="false">REGISTER</string>
+    <string name="confirmpass_register" translatable="false">Enter your password again to confirm</string>
+    <string name="register_btn" translatable="false">Click here to register</string>
 </resources>
