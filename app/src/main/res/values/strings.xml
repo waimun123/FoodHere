@@ -38,4 +38,13 @@
     <string name="vol_register_btn" translatable="false">Register As Volunteer</string>
 
 
+<<<<<<< HEAD
+=======
+    //register screen
+    <string name="title_register" translatable="false">Registration</string>
+    <string name="username_register" translatable="false">Username:</string>
+    <string name="password_register" translatable="false">Password:</string>
+    <string name="confirmpass_register" translatable="false">Confirm Password:</string>
+    <string name="register_btn" translatable="false">REGISTER</string>
+>>>>>>> parent of 452ff93... Russel: Register UI fix with validations on register action
 </resources>

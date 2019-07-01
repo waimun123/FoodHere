@@ -11,3 +11,7 @@
 /build
 /captures
 .externalNativeBuild
+app/src/main/java/com/example/foodhere/activity/RegisterActivity.kt
+app/src/main/java/com/example/foodhere/utils/ValidationUtils.kt
+app/src/main/res/layout/activity_registration.xml
+app/src/main/res/values/strings.xml

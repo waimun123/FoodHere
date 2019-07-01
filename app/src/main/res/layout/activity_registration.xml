@@ -11,67 +11,82 @@
 
     <TextView
             android:id="@+id/tv_register"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/title_register"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:textSize="36sp"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"/>
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:text="@string/username_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_username"
+            android:textSize="18sp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="@id/tv_register"
+            app:layout_constraintTop_toBottomOf="@+id/tv_register"/>
 
     <EditText
-            android:id="@+id/et_usernameRegister"
-            android:layout_width="match_parent"
+            android:layout_width="200sp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:hint="@string/username_hint"
-            android:inputType="text"
-            app:layout_constraintStart_toStartOf="@id/tv_register"
-            app:layout_constraintEnd_toEndOf="@id/tv_register"
-            app:layout_constraintTop_toBottomOf="@id/tv_register"/>
+            android:id="@+id/et_username"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintStart_toEndOf="@id/tv_username"
+            app:layout_constraintTop_toTopOf="@id/tv_username"/>
+
+    <TextView
+            android:text="@string/password_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_password"
+            android:textSize="18sp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="@id/tv_username"
+            app:layout_constraintTop_toBottomOf="@+id/tv_username"/>
 
     <EditText
-            android:id="@+id/et_passwordRegister"
-            android:layout_width="match_parent"
+            android:layout_width="200sp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:hint="@string/password_hint"
-            android:inputType="textPassword"
-            app:layout_constraintStart_toStartOf="@id/tv_register"
-            app:layout_constraintEnd_toEndOf="@id/tv_register"
-            app:layout_constraintTop_toBottomOf="@id/et_usernameRegister"/>
+            android:id="@+id/et_password"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintStart_toEndOf="@id/tv_password"
+            app:layout_constraintTop_toTopOf="@id/tv_password"/>
+
+    <TextView
+            android:text="@string/confirmpass_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_confirmpass"
+            android:textSize="18sp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="@id/tv_password"
+            app:layout_constraintTop_toBottomOf="@+id/tv_password"/>
 
     <EditText
-            android:id="@+id/et_confirmRegister"
-            android:layout_width="match_parent"
+            android:layout_width="200sp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:hint="@string/confirmpass_register"
-            android:inputType="textPassword"
-            app:layout_constraintStart_toStartOf="@id/tv_register"
-            app:layout_constraintEnd_toEndOf="@id/tv_register"
-            app:layout_constraintTop_toBottomOf="@id/et_passwordRegister"/>
+            android:id="@+id/et_confirmpass"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintStart_toEndOf="@id/tv_confirmpass"
+            app:layout_constraintTop_toTopOf="@id/tv_confirmpass"/>
 
     <Button
-            android:id="@+id/btn_register"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:text="@string/register_btn"
-            android:background="@color/colorAccent"
-            android:gravity="center"
-            app:layout_constraintTop_toBottomOf="@id/et_confirmRegister"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            android:id="@+id/btn_register"
+            android:text="@string/register_btn"/>
 
 </android.support.constraint.ConstraintLayout>
