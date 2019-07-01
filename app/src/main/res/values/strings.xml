@@ -10,16 +10,32 @@
     <string name="invalid_password" translatable="false">Password must be >5 characters</string>
     <string name="login_failed" translatable="false">"Login failed"</string>
 
+    //register screen
+    <string name="username_register" translatable="false">Username:</string>
+    <string name="password_register" translatable="false">Password:</string>
+    <string name="confirmpass_register" translatable="false">Confirm Password:</string>
+    <string name="register_btn" translatable="false">REGISTER</string>
+    <string name="contact_info" translatable="false">Contact Info:</string>
+
+    //food outlet register screen
+    <string name="fo_register" translatable="false">Food Outlet Registration</string>
+    <string name="outlet_name" translatable="false">Outlet Name:</string>
+    <string name="location" translatable="false">Location:</string>
+
+    //volunteer register screen
+    <string name="vol_register" translatable="false">Volunteer Registration</string>
+    <string name="full_name" translatable="false">Full Name:</string>
+    <string name="car_model" translatable="false">Car Model:</string>
+    <string name="car_color" translatable="false">Car Color:</string>
+    <string name="car_plate_no" translatable="false">Car Plate Number:</string>
+
     //login screen
     <string name="title_login" translatable="false">FoodHere!</string>
-    <string name="app_desc" translatable="false">Where Recycling Is A Hassle Free Business</string>
-    <string name="username_hint" translatable="false">Enter your username here</string>
-    <string name="password_hint" translatable="false">Enter your password here</string>
-    <string name="login_button" translatable="false">Click here to login</string>
-    <string name="register_help" translatable="false">Not a member yet? Please click here to register!</string>
+    <string name="username_login" translatable="false">Username:</string>
+    <string name="password_login" translatable="false">Password:</string>
+    <string name="login_btn" translatable="false">LOGIN</string>
+    <string name="fo_register_btn" translatable="false">Register As Food Outlet</string>
+    <string name="vol_register_btn" translatable="false">Register As Volunteer</string>
 
-    //register screen
-    <string name="title_register" translatable="false">Registration</string>
-    <string name="confirmpass_register" translatable="false">Enter your password again to confirm</string>
-    <string name="register_btn" translatable="false">Click here to register</string>
+
 </resources>
