@@ -1,0 +1,4 @@
+package com.example.foodhere.ui.activity
+
+class VolunteerDashboardActivity {
+}

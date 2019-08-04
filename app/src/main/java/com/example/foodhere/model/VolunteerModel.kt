@@ -1,4 +1,4 @@
 package com.example.foodhere.model
 
-class User {
+class VolunteerModel {
 }

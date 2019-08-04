@@ -1,50 +1,33 @@
 <resources>
     <string name="app_name">FoodHere</string>
-    <string name="title_activity_login_page" translatable="false">Sign in</string>
-    <string name="prompt_email" translatable="false">Email</string>
-    <string name="prompt_password" translatable="false">Password</string>
-    <string name="action_sign_in" translatable="false">Sign in or register</string>
-    <string name="action_sign_in_short" translatable="false">Sign in</string>
-    <string name="welcome" translatable="false">"Welcome !"</string>
-    <string name="invalid_username" translatable="false">Not a valid username</string>
-    <string name="invalid_password" translatable="false">Password must be >5 characters</string>
-    <string name="login_failed" translatable="false">"Login failed"</string>
+    <string name="only_name" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz </string>
+    <string name="plate_no" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 </string>
 
-    //register screen
-    <string name="username_register" translatable="false">Username:</string>
-    <string name="password_register" translatable="false">Password:</string>
-    <string name="confirmpass_register" translatable="false">Confirm Password:</string>
-    <string name="register_btn" translatable="false">REGISTER</string>
-    <string name="contact_info" translatable="false">Contact Info:</string>
+    //login screen
+    <string name="title_login" translatable="false">FoodHere!</string>
+    <string name="username_login" translatable="false">Enter Your Username Here</string>
+    <string name="password_login" translatable="false">Enter Your Password Here</string>
+    <string name="login_btn" translatable="false">Login</string>
+    <string name="fo_register_prompt" translatable="false">Are you a Food Outlet? Click here to register</string>
+    <string name="vol_register_prompt" translatable="false">Are you a Volunteer? Click here to register</string>
 
     //food outlet register screen
     <string name="fo_register" translatable="false">Food Outlet Registration</string>
     <string name="outlet_name" translatable="false">Outlet Name:</string>
-    <string name="location" translatable="false">Location:</string>
+    <string name="address_line_1" translatable="false">Address Line 1:</string>
+    <string name="address_line_2" translatable="false">Address Line 2:</string>
 
     //volunteer register screen
     <string name="vol_register" translatable="false">Volunteer Registration</string>
-    <string name="full_name" translatable="false">Full Name:</string>
-    <string name="car_model" translatable="false">Car Model:</string>
-    <string name="car_color" translatable="false">Car Color:</string>
-    <string name="car_plate_no" translatable="false">Car Plate Number:</string>
-
-    //login screen
-    <string name="title_login" translatable="false">FoodHere!</string>
-    <string name="username_login" translatable="false">Username:</string>
-    <string name="password_login" translatable="false">Password:</string>
-    <string name="login_btn" translatable="false">LOGIN</string>
-    <string name="fo_register_btn" translatable="false">Register As Food Outlet</string>
-    <string name="vol_register_btn" translatable="false">Register As Volunteer</string>
-
-
-<<<<<<< HEAD
-=======
-    //register screen
-    <string name="title_register" translatable="false">Registration</string>
-    <string name="username_register" translatable="false">Username:</string>
+    <string name="email_register" translatable="false">Email:</string>
     <string name="password_register" translatable="false">Password:</string>
     <string name="confirmpass_register" translatable="false">Confirm Password:</string>
-    <string name="register_btn" translatable="false">REGISTER</string>
->>>>>>> parent of 452ff93... Russel: Register UI fix with validations on register action
+    <string name="full_name" translatable="false">Full Name:</string>
+    <string name="contact_no" translatable="false">Mobile No:</string>
+    <string name="car_brand" translatable="false">Car Brand:</string>
+    <string name="car_model" translatable="false">Car Model:</string>
+    <string name="car_plate_no" translatable="false">Car Plate Number:</string>
+    <string name="register" translatable="false">Register</string>
+
+
 </resources>
